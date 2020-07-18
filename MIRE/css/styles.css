@@ -1,0 +1,177 @@
+body {
+  font-family: Montserrat, sans-serif;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* navigation bar */
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* download buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+}
+
+/* title image */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+
+/* features */
+#features {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: white;
+  position: relative;
+}
+
+.featurebox {
+  padding: 5%;
+}
+
+.featuretitle {
+  font-family: Montserrat, sans-serif;
+  font-size: 1.5rem;
+}
+
+.featuretext {
+  color: #8f8f8f;
+  font-family: Roboto, sans-serif;
+}
+
+.featurepic {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.featurepic:hover {
+  color: #ff4c68
+}
+
+/* testimonial */
+#testimonials {
+  text-align: center;
+  background-color: #ff4c68;
+  color: white;
+  font-family: Montserrat, sans-serif;
+  line-height: 2.5rem;
+}
+
+.testtitle {
+  font-size: 2.5rem;
+}
+
+.testtext {
+  font-family: Montserrat, sans-serif;
+}
+
+.testimg {
+  width: 12%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.pressimg{
+  width: 13%;
+  margin: 10px 20px 20px;
+}
+
+.pressimgtnw{
+  width: 10%;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/* Pricing */
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+  .title-image{
+    position: static;
+    transform: none;
+  }
+  #title{
+    text-align: center;
+  }
+}
+
+
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+  font-family: Montserrat, sans-serif;
+  padding: 5% 15% 2%;
+
+}
+
+.ctatext{
+  color: white;
+  font-size: 3.5rem;
+  font-weight: bolder;
+}
+
+#footer{
+  padding: 5% 15%;
+  text-align: center;
+  color: grey;
+}
+
+.footerbuttons{
+  color: black;
+  padding: 1%;
+}
+
+.copyrighttext{
+  padding: 2% 0 0 0;
+}
